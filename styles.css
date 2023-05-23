@@ -1,0 +1,86 @@
+*{padding: 0;
+  margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(./img/imgtecno.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+li{list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+a:hover{color: orange;}
+
+/*headear*/
+
+header{
+  position: relative;
+  padding: 0 1rem;
+}
+
+.navbar{
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo a{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+
+}
+
+.navbar .toggle_btn{
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.action_btn{
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+}
+
+.action_btn:hover {
+  scale: 1.05;
+  color: aliceblue;
+}
+.action_btn:active{
+  scale: 0.95;
+}
+
+
+
+
+
+
+
+
