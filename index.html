@@ -20,7 +20,23 @@
             <a href="#" class="action_btn">Get started</a>
             <div class="toggle_btn">menu</div>
     </div>
+    <div class="dropdown_menu">
+        <li ><a href="hero">Home</a></li>
+        <li ><a href="about">About</a></li>
+        <li ><a href="service">Service</a></li>
+        <li ><a href="contact">Contact</a></li>
+        <li><a href="#" class="action_btn">Get started</a></li>
+    </div>
 
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function (){
+            dropDownMenu.classList.toggle('open')
+        }
+    </script>
 </header>
 
 
