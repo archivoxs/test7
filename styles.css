@@ -176,17 +176,29 @@ main div p {
   text-align: center;
   font-size: 20px;
 }
-.container_promo{display: flex;
+.container_promo{
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
+  margin-top: 40px;
 
 }
 .container_promo .promo{
+  background: rgba(0,0,0,.7) ;
   border: 2px solid white;
   flex-basis: 350px; /* width: 350px; */
-  border: solid 2px white;
+  
   font-weight: bold;
+  
+}
+.promo:hover{
+  background: rgba(56, 57, 56, 0.7) ;
+  border: 6px solid orange;
+  flex-basis: 350px; /* width: 350px; */
+  
+  font-weight: bold;
+  box-shadow: 15px 15px 10px rgb(10, 10, 10);
 }
 .promo img{
   object-fit: cover;
@@ -195,11 +207,9 @@ main div p {
   vertical-align: middle;
   border-radius: 5px;
 }
-.promo p{ background-color: rgba(0,0,0,.5);
-  color: #fff;
-  
+.promo p{ 
+  color: #fff;  
   text-align: left;
-
 }
 .promo .precio{
   color: orange;
