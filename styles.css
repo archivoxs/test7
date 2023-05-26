@@ -136,16 +136,16 @@ section#hero{
   font-size: 60px;
   padding: 30px;
   font-family: 'Kaushan Script', cursive;
-  transition: 1s;
+  transition: .5s;
 }
 .container{
   border: 2px solid white;
-  margin: 40px 20px;
+  margin: 40px 40px;
   padding: 20px 0;
 }
 span{color: white;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
     
 }
 .image-gallery {
@@ -169,8 +169,43 @@ span{color: white;
 }
 
 
+/*service*/
 
+main div p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.container_promo{display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 
+}
+.container_promo .promo{
+  border: 2px solid white;
+  flex-basis: 350px; /* width: 350px; */
+  border: solid 2px white;
+  font-weight: bold;
+}
+.promo img{
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.promo p{ background-color: rgba(0,0,0,.5);
+  color: #fff;
+  
+  text-align: left;
+
+}
+.promo .precio{
+  color: orange;
+  text-align: center;
+  font-size: 30px;
+}
 
 
 
@@ -191,7 +226,7 @@ span{color: white;
   .aboutTitle{
     color: orange;
     font-size: 45px;
-    transition: 1s;
+    transition: .5s;
   }
   
 }
