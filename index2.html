@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>About</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">Web Test Dev</a></div>
+                <ul class="links">
+                    <li class="hero"><a href="">Home</a></li>
+                    <li class="about"><a href="">About</a></li>
+                    <li class="service"><a href="">Service</a></li>
+                    <li class="contact"><a href="">Contact</a></li>
+                </ul>
+                <a href="#" class="action_btn">Get started</a>
+                <div class="toggle_btn">menu</div>
+        </div>
+        <div class="dropdown_menu">
+            <li ><a href="hero">Home</a></li>
+            <li ><a href="#about">About</a></li>
+            <li ><a href="service">Service</a></li>
+            <li ><a href="contact">Contact</a></li>
+            <li><a href="#" class="action_btn">Get started</a></li>
+        </div>
+    </header>
+    <main class="aboutTitle">
+        Acerca de nuestros trabajos
+    </main>
+    <div class="container">
+        <!-- heading text -->
+        <ul class="image-gallery">
+            <li>
+                <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+                <div class="overlay"><span>Image title</span></div>
+            </li>
+            <li>
+                <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+                <div class="overlay"><span>Image title</span></div>
+            </li>
+            <li>
+                <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+                <div class="overlay"><span>Image title</span></div>
+            </li>
+            <li>
+                <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+                <div class="overlay"><span>Image title</span></div>
+            </li>
+            <li>
+                <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+                <div class="overlay"><span>Image title</span></div>
+            </li>
+            <li>
+                <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+                <div class="overlay"><span>Image title</span></div>
+            </li>
+            <li>
+                <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+                <div class="overlay"><span>Image title</span></div>
+            </li>
+            <li>
+                <img src="https://source.unsplash.com/VWcPlbHglYc/640x416" alt="" />
+                <div class="overlay"><span>Image title</span></div>
+            </li>
+          <!-- other items here -->
+        </ul>
+      </div>
+      <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function (){
+            dropDownMenu.classList.toggle('open')
+        }
+    </script>
+</body>
+</html>
